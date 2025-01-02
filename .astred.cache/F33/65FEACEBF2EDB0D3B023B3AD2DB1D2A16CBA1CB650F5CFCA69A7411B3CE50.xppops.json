@@ -1,0 +1,11 @@
+{"file":{"path":"C:\\Users\\t-skothapall\\AppData\\Local\\Temp\\jfjkrzxi.1ol\\C\\msys64\\ucrt64\\include\\sdks\\_mingw_ddk.h","sha256":"F3365FEACEBF2EDB0D3B023B3AD2DB1D2A16CBA1CB650F5CFCA69A7411B3CE50","written":"2024-06-16T13:08:50.0000000Z"},
+"operations":[
+{"row":0,"command":"#pragma","args":["once"]},
+{"row":1,"command":"#ifndef","args":["MINGW_DDK_H"]},
+{"row":2,"command":"#define","args":["MINGW_DDK_H"," "]},
+{"row":3,"command":"#if","args":["1"]},
+{"row":4,"command":"#define","args":["MINGW_HAS_DDK_H"," ","1"]},
+{"row":5,"command":"#endif","args":[]},
+{"row":6,"command":"#endif","args":[]}],
+"identifiers":["MINGW_DDK_H","1"],
+"defines":["MINGW_DDK_H","MINGW_HAS_DDK_H"]}

@@ -1,0 +1,10 @@
+{"file":{"path":"C:\\Users\\t-skothapall\\AppData\\Local\\Temp\\jfjkrzxi.1ol\\%REPO%\\samples\\sample\\f1.h","sha256":"7BF20F25E39E52E8A371054F98B657ED83E441636FB8B2D641C1FFBE48B1E72C","written":"2025-01-02T08:04:30.1901627Z"},
+"operations":[
+{"row":0,"command":"#pragma","args":["once"]},
+{"row":1,"command":"#ifndef","args":["F1_H"]},
+{"row":2,"command":"#define","args":["F1_H"," "]},
+{"row":3,"command":"#include","args":["\u003Cstdio.h\u003E"]},
+{"row":4,"command":"","args":["a","b","get_value","int","print_value","struct","t","T","typedef","void"]},
+{"row":11,"command":"#endif","args":[]}],
+"identifiers":["F1_H","typedef","struct","T","int","a","b","get_value","void","print_value","t"],
+"defines":["F1_H"]}
