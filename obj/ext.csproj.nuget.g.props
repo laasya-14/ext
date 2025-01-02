@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\t-skothapall\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.12.2</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\t-skothapall\.nuget\packages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <EmbeddedResource Include="$(NuGetPackageRoot)astred.core\1.4.1\contentFiles\any\net8.0\Astred.AstLib.xml" Condition="Exists('$(NuGetPackageRoot)astred.core\1.4.1\contentFiles\any\net8.0\Astred.AstLib.xml')">
+      <NuGetPackageId>Astred.Core</NuGetPackageId>
+      <NuGetPackageVersion>1.4.1</NuGetPackageVersion>
+      <NuGetItemType>EmbeddedResource</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Astred.AstLib.xml</TargetPath>
+      <Private>True</Private>
+      <Link>Astred.AstLib.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(NuGetPackageRoot)astred.core\1.4.1\contentFiles\any\net8.0\Astred.CHANGELOG.md" Condition="Exists('$(NuGetPackageRoot)astred.core\1.4.1\contentFiles\any\net8.0\Astred.CHANGELOG.md')">
+      <NuGetPackageId>Astred.Core</NuGetPackageId>
+      <NuGetPackageVersion>1.4.1</NuGetPackageVersion>
+      <NuGetItemType>EmbeddedResource</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Astred.CHANGELOG.md</TargetPath>
+      <Private>True</Private>
+      <Link>Astred.CHANGELOG.md</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(NuGetPackageRoot)astred.core\1.4.1\contentFiles\any\net8.0\Astred.Logo.png" Condition="Exists('$(NuGetPackageRoot)astred.core\1.4.1\contentFiles\any\net8.0\Astred.Logo.png')">
+      <NuGetPackageId>Astred.Core</NuGetPackageId>
+      <NuGetPackageVersion>1.4.1</NuGetPackageVersion>
+      <NuGetItemType>EmbeddedResource</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Astred.Logo.png</TargetPath>
+      <Private>True</Private>
+      <Link>Astred.Logo.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(NuGetPackageRoot)astred.core\1.4.1\contentFiles\any\net8.0\Astred.README.md" Condition="Exists('$(NuGetPackageRoot)astred.core\1.4.1\contentFiles\any\net8.0\Astred.README.md')">
+      <NuGetPackageId>Astred.Core</NuGetPackageId>
+      <NuGetPackageVersion>1.4.1</NuGetPackageVersion>
+      <NuGetItemType>EmbeddedResource</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Astred.README.md</TargetPath>
+      <Private>True</Private>
+      <Link>Astred.README.md</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">C:\Users\t-skothapall\.nuget\packages\microsoft.visualstudio.threading.analyzers\17.10.48</PkgMicrosoft_VisualStudio_Threading_Analyzers>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\t-skothapall\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2</PkgMicrosoft_CodeAnalysis_Analyzers>
+  </PropertyGroup>
+</Project>
